@@ -5,7 +5,9 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'FrameMaker::FromHTML',
     'VERSION_FROM'	=> 'FromHTML.pm', # finds $VERSION
-    'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
+    'PREREQ_PM'		=> {'Image::Size'        => '2.9',
+						'HTML::Parser'        => '2.5',
+						}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'FromHTML.pm', # retrieve abstract from module
        AUTHOR     => 'Peter G. Martin<peterm@zeta.org.au>') : ()),

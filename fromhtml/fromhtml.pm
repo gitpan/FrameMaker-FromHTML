@@ -1,16 +1,16 @@
 #!perl##########################################################################
 # MODULE     FrameMaker::FromHTML
-# VERSION    0.01
-# DATE       1 December 2002
+# VERSION    0.02
+# DATE       16 May 2003
 # AUTHOR     Peter G. Martin
 # EMAIL      peterm@zeta.org.au
 # COMPANY    The Scribe & Chutney Trust
-# COPYRIGHT NOTICE   (Copyright) The Scribe & Chutney Trust, 2002
+# COPYRIGHT NOTICE   (Copyright) The Scribe & Chutney Trust, 2003
 # PURPOSE   Converts HTML file to FrameMaker MIF format
 
 =head1 NAME
 
-FrameMaker::FromHTML -- class to convert HTML file to FrameMaker MIF
+FrameMaker::FromHTML - class to convert HTML file to FrameMaker MIF
 
 =head1 AUTHOR
 
@@ -19,8 +19,8 @@ The Scribe & Chutney Trust
 
 =head1 VERSION
 
-Version 0.01
-1 December 2002
+Version 0.02
+16 May 2003
 
 =head1 SYNOPSIS
 
@@ -60,12 +60,14 @@ your HTML.
 
 Galore. Particularly if expected HTML elements are missing.
 
+
+
 =cut
 
 package FrameMaker::FromHTML;
 use Image::Size;
-use vars qw($imgw $imgh @ISA $VERSION);     # seemed necessary to have globals -- (wierd effect from I::S)
-our $VERSION = 0.01;
+use vars qw($imgw $imgh @ISA $VERSION);
+our $VERSION = 0.02;
 @ISA=qw(HTML::Parser);
 require HTML::Parser;
 sub new

@@ -1,0 +1,8 @@
+Revision history for Perl extension FrameMaker::FromHTML.
+
+0.01  Thu May 15 13:51:23 2003
+	- original version;
+0.02  Fri May 16
+    - fixes for make details: prerequisites, and abstract etc
+
+
