@@ -1,6 +1,6 @@
-#!perl##########################################################################
+###########################################################################
 # MODULE     FrameMaker::FromHTML
-# VERSION    0.02
+# VERSION    0.03
 # DATE       16 May 2003
 # AUTHOR     Peter G. Martin
 # EMAIL      peterm@zeta.org.au
@@ -19,8 +19,8 @@ The Scribe & Chutney Trust
 
 =head1 VERSION
 
-Version 0.02
-16 May 2003
+Version 0.03
+16 May 2003 1715 AEST
 
 =head1 SYNOPSIS
 
@@ -67,7 +67,7 @@ Galore. Particularly if expected HTML elements are missing.
 package FrameMaker::FromHTML;
 use Image::Size;
 use vars qw($imgw $imgh @ISA $VERSION);
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 @ISA=qw(HTML::Parser);
 require HTML::Parser;
 sub new

@@ -1,5 +1,5 @@
-FrameMaker/FromHTML version 0.01
-================================
+FrameMaker/FromHTML
+===================
 
 Sub-classed from HTML::Parser, FrameMaker::FromHTML
 converts (some) HTML files into FrameMaker MIF format, 
